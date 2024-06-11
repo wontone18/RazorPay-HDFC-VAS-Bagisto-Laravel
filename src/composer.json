@@ -1,0 +1,26 @@
+{
+    "name": "wontonee/razorpayhdfc",
+    "description": "Razorpay HDFC Vas payment gateway for bagisto laravel open source ecommerce platform.",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Wontonee\\RazorpayHDFC\\": "src/"
+        }
+    },
+	"extra": {
+        "laravel": {
+            "providers": [
+                "Wontonee\\RazorpayHDFC\\Providers\\RazorpayServiceProvider"
+            ],
+            "aliases": {}
+        }
+    },
+    "authors": [
+        {
+            "name": "Saju G",
+            "email": "saju.g@wontonetech.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {}
+}
